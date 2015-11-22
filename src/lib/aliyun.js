@@ -190,7 +190,7 @@ var aliyun = function (options) {
         paramsObj = {
             'SignatureVersion': '1.0',
             'SignatureMethod': 'HMAC-SHA1',
-            'Fommat': defaults.format,
+            'Format': defaults.format,
             'Version': defaults.version,
             'AccessKeyId': defaults.accessid,
             'Timestamp': utils.formatDate(_date),
