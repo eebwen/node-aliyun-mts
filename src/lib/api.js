@@ -1,6 +1,4 @@
 var urllib = require('urllib');
-var parser = require('xml2json');
-
 
 var api = function (bundleInterface) {
 
@@ -38,10 +36,8 @@ var api = function (bundleInterface) {
                 return; 
             }            
             
-            var xml = data.toString();
-            var json = parser.toJson(xml); //returns a string containing the JSON structure by default 
-
-            _callback(null,json);            
+            var jsonStr = data.toString();
+            _callback(null, jsonStr);            
 
         });
     };
