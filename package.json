@@ -15,8 +15,7 @@
   "author": "Thonatos.Yang",
   "license": "MIT",
   "dependencies": {
-    "urllib": "^2.5.0",
-    "xml2json": "^0.9.0"
+    "urllib": "^2.5.0"
   },
   "repository": {
     "type": "git",
